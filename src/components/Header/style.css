@@ -1,0 +1,27 @@
+.mainHeader {
+  height: 45px;
+}
+
+.mainHeaderInner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+}
+
+.mainHeader a {
+  text-transform: uppercase;
+  color: #000;
+  font-weight: 600;
+  border-bottom: 2px solid transparent;
+  font-size: 18px;
+  margin: 0 10px;
+  transition: color .2s linear;
+}
+
+.mainHeader .activeLink {
+  font-weight: 800;
+  color: #f0963a;
+}
